@@ -1,9 +1,13 @@
-# Todo-mvc
+# Ember
+Building a simple ToDo app from emberjs.com to try the Ember framework at Ember London meet-up.
+
+
+## Todo-mvc
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
-## Prerequisites
+### Prerequisites
 
 You will need the following things properly installed on your computer.
 
@@ -13,14 +17,14 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+### Installation
 
 * `git clone <repository-url>` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
 
-## Running / Development
+### Running / Development
 
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
