@@ -1,6 +1,8 @@
 # Ember
 Building a simple ToDo app from emberjs.com to try the Ember framework at Ember London meet-up.
 
+W.I.P - as and when I have to time to add to it!
+
 
 ## Todo-mvc
 
