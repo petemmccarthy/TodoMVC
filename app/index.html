@@ -12,15 +12,15 @@
     <section id="todoapp">
       <header id="header">
         <h1>todos</h1>
-        {{input type="text" id="new-todo" placeholder="What needs to be done?" value=newTitle action="createTodo"}}
+        <input type="text" id="new-todo" placeholder="What needs to be done?" />
       </header>
 
       <section id="main">
         <ul id="todo-list">
-          {{#each todo in model}}
-            <li>
+          {{#each}}
+            <li> {{bind-attr class="isCompleted:completed"}}>
               <input type="checkbox" class="toggle">
-              <label>{{todo.title}}</label><button class="destroy"></button>
+              <label>{{title}}</label><button class="destroy"></button>
             </li>
           {{/each}}
         </ul>
@@ -53,6 +53,8 @@
     <footer id="info">
       <p>Double-click to edit a todo</p>
     </footer>
+
+    
 
     <script src="js/libs/jquery-1.11.2.min.js"></script>
     <script src="js/libs/handlebars-v1.3.0.js"></script>
